@@ -1,4 +1,4 @@
 #!/bin/sh
 
 mkdir -p bin
-gcc main.c -lglfw -lGLEW -lGL -lm -o bin/main && ./bin/main
+gcc main.c renderer.c -lglfw -lGLEW -lGL -lm -o bin/main && ./bin/main
